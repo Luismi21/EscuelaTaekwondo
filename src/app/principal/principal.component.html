@@ -4,14 +4,14 @@
   <div class="w-100" id="Bar">
     <img src="./assets/logo.jpg" alt="" height="95px" />
     <ul>
-      <li>Noticias</li>
-      <li>Sobre Nosotros</li>
-      <li>Alumnos/Docentes</li>
+      <li routerLink="" routerLinkActive="active" class="list-group-item">Noticias</li>
+      <li routerLink="sobreNosotros" routerLinkActive="active" class="list-group-item">Sobre Nosotros</li>
+      <li routerLink="AlumnoDocente" routerLinkActive="active" class="list-group-item">Alumnos/Docentes</li>
     </ul>
   </div>
   <!--contenedor principal-->
   <div>
     <!--//contenedor de la informacion-->
-    <div id="ContenedorInfo">hola mundo</div>
+    <router-outlet></router-outlet>
   </div>
 </div>

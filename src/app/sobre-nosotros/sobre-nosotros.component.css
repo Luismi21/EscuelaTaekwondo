@@ -1,0 +1,18 @@
+#ContenedorInfo {
+  border-radius: 10px;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 100vh;
+  margin-top: 30px;
+  padding: 50px;
+  box-shadow: 0px 2px 8px black;
+
+}
+.Titulos {
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.Contenido{
+    font-size: 30px;
+}
