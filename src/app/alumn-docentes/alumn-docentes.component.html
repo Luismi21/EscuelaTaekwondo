@@ -1,11 +1,14 @@
 <div id="ContenedorInfo">
-  <div class="Tarusuarios">
-    <br /><img src="./assets/docente.png" alt="" height="50%" /> <br />
-    <br />
-    Docentes
-  </div>
-  <div class="Tarusuarios">
-    <br /><img src="./assets/alumnos.png" alt="" height="50%" /> <br />
-    <br />Alumnos
-  </div>
+ 
+    <div class="Tarusuarios" [routerLink]="['/login']">
+      <br /><img src="./assets/docente.png" alt="" height="50%" /> <br />
+      <br />
+      Docentes
+    </div>
+  >
+ <!--  <a href="/src/app/login/login.component.html">-->
+    <div class="Tarusuarios" [routerLink]="['/login']">
+      <br /><img src="./assets/alumnos.png" alt="" height="50%" /> <br />
+      <br />Alumnos
+    </div>
 </div>

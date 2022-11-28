@@ -1,0 +1,45 @@
+#aside {
+  background-color: #4eb5b5;
+  width: 40vh;
+  height: 89.1vh;
+  box-shadow: black 2px 0px 15px;
+}
+#general {
+  display: inline-flex;
+}
+#aside p {
+  font-size: 250%;
+  text-align: center;
+}
+#aside ul li {
+  text-align: center;
+
+  margin-top: 35%;
+
+  font-style: none;
+  font-size: 200%;
+  list-style: none;
+  width: 90%;
+  height: 6vh;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#aside ul li:hover {
+  box-shadow: black 5px 5px 10px;
+  transition: 200ms;
+  width: 91%;
+  height: 7vh;
+  padding: 5px;
+}
+#aside ul li:active {
+  background-color: #666666;
+  color: aliceblue;
+}
+
+#ContGeneral {
+  text-align: center;
+  margin: auto 0;
+  width: 164vh;
+  font-size: 10vh;
+}
