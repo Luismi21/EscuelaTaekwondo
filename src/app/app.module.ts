@@ -13,7 +13,7 @@ import { PanelAlumnoComponent } from './InterfazAlumnDocente/panel-alumno/panel-
 import { RegistrarAlumnosComponent } from './InterfazAlumnDocente/RegistrarAlumnos/registrar-alumnos-menu/registrar-alumnos.component';
 import { RegistrarActividadesComponent } from './InterfazAlumnDocente/RegistrarAlumnos/registrar-actividades/registrar-actividades.component';
 import { RegistrarNoticiasComponent } from './InterfazAlumnDocente/RegistrarAlumnos/registrar-noticias/registrar-noticias.component';
-import { AsideListaAccesoComponent } from './InterfazAlumnDocente/aside-lista-acceso-docente/aside-lista-acceso.component';
+import { AsideListaAccesoComponent } from './InterfazAlumnDocente/aside-lista-acceso-admin/aside-lista-acceso.component';
 import { AgregarAlumnoFormularioComponent } from './InterfazAlumnDocente/RegistrarAlumnos/registrar-alumnos-menu/agregar-alumno-formulario/agregar-alumno-formulario.component';
 
 @NgModule({
