@@ -1,0 +1,54 @@
+<div id="general">
+    <app-aside-lista-acceso-docente></app-aside-lista-acceso-docente>
+  
+    <div id="ContenedorForm">
+      <form action="">
+        <p id="Titulo">Registro Alumno</p>
+        <hr />
+  
+        <p>Nombre:</p>
+        <input type="text" class="campA" />
+  
+        <p>Apellido:</p>
+        <input type="text" class="campA" />
+  
+        <p>Grado</p>
+        <select name="Grados" class="campA">
+          <option>Grado 1</option>
+          <option>Grado 2</option>
+          <option>Grado 3</option>
+          <option>Grado 4</option>
+          <option>Grado 5</option>
+        </select>
+  
+        <p>Fecha Nacimiento:</p>
+        <input type="number" placeholder="Dia" id="diaFech" />
+        <select name="Mes" class="FechaN">
+          <option>Enero</option>
+          <option>Febrero</option>
+          <option>Marzo</option>
+          <option>Abril</option>
+          <option>Mayo</option>
+          <option>Junio</option>
+          <option>Julio</option>
+          <option>Agosto</option>
+          <option>Septiembre</option>
+          <option>Octubre</option>
+          <option>Noviembre</option>
+          <option>Diciembre</option>
+        </select>
+  
+        <input type="number" placeholder="Año" class="FechaN" />
+        <p>Sexo:</p>
+        <div class="RadiSex">
+          Hombre<input name="sexo" class="rds" type="radio" value="rbihombre" />
+        </div>
+        <div class="RadiSex">
+          Mujer<input name="sexo" class="rds" type="radio" value="rbimujer" />
+        </div>
+  
+        <button>Registrar</button>
+      </form>
+    </div>
+  </div>
+  

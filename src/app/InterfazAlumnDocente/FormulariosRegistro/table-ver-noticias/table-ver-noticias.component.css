@@ -1,0 +1,26 @@
+#general {
+    display: inline-flex;
+  }
+
+  #general {
+    display: inline-flex;
+  }
+  label{
+margin-left: 80%;
+margin-bottom: 10%;
+  }
+  button{
+    margin-top: 20%;
+    margin-left: 90%;
+    border-radius: 10PX;
+    width: 10vh;
+    background-color: rgb(16, 214, 16);
+  }
+  table{
+    width: 135vh;
+    margin-left: 3%;
+  }
+  #FRAME{
+
+    width: 144vh;
+  }
