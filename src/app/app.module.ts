@@ -29,6 +29,10 @@ import { RegistrarAlumnosDocenteMenuComponent } from './InterfazAlumnDocente/Reg
 import { RegistrarActividadesDocenteMenuComponent } from './InterfazAlumnDocente/RegistrarMenuDocentes/registrar-actividades-docente-menu/registrar-actividades-docente-menu.component';
 import { FormAgregarActividadesDocenteComponent } from './InterfazAlumnDocente/formulario-registro-docente/form-agregar-actividades-docente/form-agregar-actividades-docente.component';
 import { TableVerActividadesDocenteComponent } from './InterfazAlumnDocente/formulario-registro-docente/table-ver-actividades-docente/table-ver-actividades-docente.component';
+import { LoginAlumnosComponent } from './login-alumnos/login-alumnos.component';
+import { MiPerfilComponent } from './InterfazAlumnDocente/RAlumnosMenu/mi-perfil/mi-perfil.component';
+import { MisCalificacionesComponent } from './InterfazAlumnDocente/RAlumnosMenu/mis-calificaciones/mis-calificaciones.component';
+import { AsidePerfilAlumnoComponent } from './InterfazAlumnDocente/aside-perfil-alumno/aside-perfil-alumno.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +65,10 @@ import { TableVerActividadesDocenteComponent } from './InterfazAlumnDocente/form
     RegistrarActividadesDocenteMenuComponent,
     FormAgregarActividadesDocenteComponent,
     TableVerActividadesDocenteComponent,
+    LoginAlumnosComponent,
+    MiPerfilComponent,
+    MisCalificacionesComponent,
+    AsidePerfilAlumnoComponent,
   //  FormularioRegistroDocenteComponent,
 
     

@@ -23,6 +23,9 @@ import { TableVerAlumnoDocenteComponent } from './InterfazAlumnDocente/formulari
 import { RegistrarActividadesDocenteMenuComponent } from './InterfazAlumnDocente/RegistrarMenuDocentes/registrar-actividades-docente-menu/registrar-actividades-docente-menu.component';
 import { FormAgregarActividadesDocenteComponent } from './InterfazAlumnDocente/formulario-registro-docente/form-agregar-actividades-docente/form-agregar-actividades-docente.component';
 import { TableVerActividadesDocenteComponent } from './InterfazAlumnDocente/formulario-registro-docente/table-ver-actividades-docente/table-ver-actividades-docente.component';
+import { LoginAlumnosComponent } from './login-alumnos/login-alumnos.component';
+import { MiPerfilComponent } from './InterfazAlumnDocente/RAlumnosMenu/mi-perfil/mi-perfil.component';
+import { MisCalificacionesComponent } from './InterfazAlumnDocente/RAlumnosMenu/mis-calificaciones/mis-calificaciones.component';
 
 const routes: Routes = [
   { path: '', component: ContenidoPrincipalComponent, pathMatch: 'full' },
@@ -47,7 +50,10 @@ const routes: Routes = [
 {path: 'AgregarActividades', component: RegistrarActividadesDocenteMenuComponent},
 {path: 'AgregarActividadesDocentes', component: FormAgregarActividadesDocenteComponent},
 {path: 'TablaVerActividadesDocentes', component:TableVerActividadesDocenteComponent},
-
+//alumno
+{path: 'LoginAlumno', component:LoginAlumnosComponent},
+{path: 'MiPerfil', component: MiPerfilComponent},
+{path: 'Calificaciones', component: MisCalificacionesComponent},
   { path: '**', redirectTo: '' },
 ];
 
