@@ -30,3 +30,28 @@ display: inline-flex;
     transition: 100ms;
     cursor: pointer;
   }
+
+  @media (min-width: 320px) and (max-width: 900px){
+
+
+    #tarjetas {
+      display: inline;
+    width: 100vh;
+    height: 100vh;
+    
+    }
+
+    #general{
+      display: inline;
+      
+ 
+        }
+
+        .Tarusuarios {
+         font-size: 20px;
+          margin: 0px auto;
+        margin-bottom: 5%;
+        }
+  }
+
+  

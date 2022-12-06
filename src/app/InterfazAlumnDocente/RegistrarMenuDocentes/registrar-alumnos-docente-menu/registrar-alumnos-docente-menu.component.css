@@ -1,28 +1,45 @@
 #general {
-    display: inline-flex;
-  }
-  
+  display: inline-flex;
+}
+
+#tarjetas {
+  width: 160vh;
+  padding-left: 20%;
+  display: inline-flex;
+}
+.Tarusuarios {
+  margin: auto 0px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10%;
+  height: 40vh;
+  width: 35vh;
+  border-radius: 20px;
+  padding: 20px;
+  border: rgb(168, 168, 168) 0.1px solid;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.Tarusuarios:hover {
+  box-shadow: 0px 2px 8px black;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
   #tarjetas {
-    width: 160vh;
-    padding-left: 20%;
-    display: inline-flex;
+    display: inline;
+    width: 100vh;
+    height: 100vh;
   }
+
+  #general {
+    display: inline;
+  }
+
   .Tarusuarios {
-    margin: auto 0px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 10%;
-    height: 40vh;
-    width: 35vh;
-    border-radius: 20px;
-    padding: 20px;
-    border: rgb(168, 168, 168) 0.1px solid;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
+    font-size: 20px;
+    margin: 0px auto;
+    margin-bottom: 5%;
   }
-  .Tarusuarios:hover {
-    box-shadow: 0px 2px 8px black;
-    transition: 100ms;
-    cursor: pointer;
-  }
-  
+}

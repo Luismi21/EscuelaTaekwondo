@@ -67,3 +67,31 @@ margin-left: 10%;
 
 border-radius: 10px;
 }
+
+ 
+   
+@media (min-width: 320px) and (max-width: 900px){
+
+  #general{
+ display: inline;
+ 
+  }
+ #ContenedorForm{
+
+  width: 95%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 15PX;
+ }
+ textarea{
+  width: 85%;
+  margin-left: 10%;
+ 
+}
+
+.FechaN{
+margin-left: 10%;
+
+}
+   
+   }

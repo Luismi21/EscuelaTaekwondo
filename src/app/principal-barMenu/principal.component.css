@@ -1,25 +1,61 @@
 #contenedorP {
   background-color: white;
+  
 }
 #Bar {
   height: 8%;
   background-color: white;
   box-shadow: 0px -2px 8px black;
   display: inline-flex;
+
 }
 #Bar ul li {
-  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-flex;
   margin-top: 35px;
   font-size: 25px;
   margin-left: 5vh;
   cursor: pointer;
+  
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #Bar ul li:hover {
-  color: red;
+  color: rgb(255, 255, 255);
   transition: 100ms;
+  background-color: black;
 }
 #Bar img {
   margin-right: 30%;
 }
 
+
+@media (min-width: 320px) and (max-width: 700px){
+  #contenedorP {
+    width: 106%;
+  }
+  
+  #Bar ul li {
+    margin-left: 8%;
+    font-size: 130%;
+    
+  }
+  #img {
+    display: none;
+  }
+}
+/*
+@media (max-width: 1440px){
+  #contenedorP {
+    width: 106%;
+  }
+  #Bar ul li {
+    margin-left: 8%;
+    font-size: 130%;
+    
+  }
+ 
+}
+
+*/

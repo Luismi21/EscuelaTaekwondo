@@ -43,3 +43,20 @@
   width: 164vh;
   font-size: 10vh;
 }
+
+
+ 
+@media (min-width: 320px) and (max-width: 900px){
+
+
+  #ContGeneral {
+    width: 88%;
+    background-color: #ffffff00;
+    font-size: 5vh;
+  }
+  #general{
+display: inline;
+
+  }
+
+}

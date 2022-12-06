@@ -9,3 +9,14 @@
   box-shadow: 0px 2px 8px black;
 }
 
+
+
+
+/*responsive*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #ContenedorInfo{
+    width: 95%;
+  }
+
+}

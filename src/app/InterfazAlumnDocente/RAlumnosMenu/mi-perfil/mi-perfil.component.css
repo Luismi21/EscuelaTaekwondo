@@ -12,3 +12,27 @@
     border: none;
     box-shadow: 0px 0px 10px -2px ;
   }
+
+
+  @media (min-width: 320px) and (max-width: 900px){
+
+
+ 
+
+    #general{
+      display: inline;
+      
+      
+ 
+        }
+        #ContenedorForm{
+
+          width: 94%;
+          margin-left: 3%;
+          margin-top: 20px;
+        }
+
+        
+  }
+
+  

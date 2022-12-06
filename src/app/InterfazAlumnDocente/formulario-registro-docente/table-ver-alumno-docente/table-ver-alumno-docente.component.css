@@ -14,9 +14,37 @@ margin-bottom: 10%;
   }
   table{
     width: 135vh;
-    margin-left: 3%;
+    
   }
   #FRAME{
+border: 1PX solid black;
+margin: 20PX;
+width: 135vh;
+border-radius: 10PX;
+  }
 
-    width: 144vh;
+   
+  @media (min-width: 320px) and (max-width: 900px){
+
+ #general{
+display: inline;
+
+ }
+ #FRAME{
+width: 50vh;
+
+overflow: hidden;
+overflow-x: scroll;
+margin: 10PX;
+
+
+ }
+ button{
+  margin-top: 20%;
+  margin-left: 60%;
+ 
+}
+
+
+  
   }
