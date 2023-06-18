@@ -1,60 +1,60 @@
 #general {
-    display: inline-flex;
-  }
+  display: inline-flex;
+}
 
+#general {
+  display: inline-flex;
+}
+label {
+  margin-left: 73%;
+  margin-bottom: 10%;
+}
+button {
+  margin-top: 20%;
+  margin-left: 90%;
+  border-radius: 10px;
+  width: 10vh;
+  background-color: rgb(16, 214, 16);
+}
+table {
+  width: 135vh;
+  margin-left: 3%;
+}
+#FRAME {
+  width: 144vh;
+  padding-top: 20px;
+}
+
+#FRAME {
+  border: 1px solid black;
+  margin: 20px;
+  width: 135vh;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
   #general {
-    display: inline-flex;
-  }
-  label{
-margin-left: 80%;
-margin-bottom: 10%;
-  }
-  button{
-    margin-top: 20%;
-    margin-left: 90%;
-    border-radius: 10PX;
-    width: 10vh;
-    background-color: rgb(16, 214, 16);
-  }
-  table{
-    width: 135vh;
-    margin-left: 3%;
-  }
-  #FRAME{
-
-    width: 144vh;
-  }
-
-  
-  #FRAME{
-    border: 1PX solid black;
-    margin: 20PX;
-    width: 135vh;
-    border-radius: 10PX;
-      }
-    
-       
-      @media (min-width: 320px) and (max-width: 900px){
-    
-     #general{
     display: inline;
-    
-     }
-     #FRAME{
+  }
+  #FRAME {
     width: 53vh;
-    
+
     overflow: hidden;
     overflow-x: scroll;
-    margin: 10PX;
-    
-    
-     }
-     button{
-      margin-top: 20%;
-      margin-left: 60%;
-     
-    }
-    
-    
-      
-      }
+    margin: 10px;
+  }
+  button {
+    margin-top: 20%;
+    margin-left: 60%;
+  }
+}
+
+#InputId {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#InputId:hover {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 0, 0);
+}
